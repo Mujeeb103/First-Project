@@ -1,5 +1,30 @@
-body {background-color: azure;}
-h1 {color: blue;}
-h2 {color: darkgoldenrod;}
-nav {background-color: blueviolet;}
-nav {font-family: cursive;}
+* { 
+    margin: 0;
+    padding: 0;
+    }
+    nav {
+    border-bottom: 5px solid #002642;
+    }
+    nav ul{ list-style: none;
+    }
+    .nav-item {
+    margin: 15px 5px;
+    padding-right: 1rem;
+    display: inline-block;
+    }
+    a {
+        font-family: 'Major Mono Display', monospace;
+        text-decoration: none;
+        color: #002642;
+    }
+    a :hover{
+        text-decoration: line-through 3px;
+    }
+    h1{
+        font-family: 'Major Mono Display', monospace;
+        color: #e59500;
+    }
+    
+    section {
+        margin: 50px 25px;
+    }
